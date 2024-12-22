@@ -140,4 +140,4 @@ def load_events(time_step:int=TIME_WINDOW, version=VERSION, article_code_digits=
 
 if __name__ == "__main__":
     load_events(article_code_digits=4, time_step=1*DAY, version="B")
-    # load_events(article_code_digits=4)
+    # load_events(article_code_digits=3)
